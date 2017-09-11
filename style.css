@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+div#board {
+  position: relative;
+  width: 1024px;
+  height: 863px;
+  margin: auto;
+}
+
+div#messageArea {
+  position: absolute;
+  font-size: 30px;
+  top: 20px;
+  left: 0px;
+  color: rgb(83, 175, 19);
+}
+
+table {
+  position: absolute;
+  left: 173px;
+  top: 98px;
+  border: 3px solid black;
+  border-spacing: 0px;
+}
+
+td {
+  width: 94px;
+  height: 94px;
+  background-color: grey;
+  border: 1px solid black;
+}
+
+td:hover {
+  cursor: pointer;
+  background-color: #82747d;
+}
+
+form {
+  position: absolute;
+  bottom: 10px;
+  right: 400px;
+  padding: 15px;
+  background-color: rgb(83, 175, 19);
+  font-size: 1em;
+}
+
+.hit {
+  background-color: green;
+}
+.miss {
+  background-color: red;
+}
